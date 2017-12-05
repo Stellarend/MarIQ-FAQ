@@ -22,7 +22,7 @@ MarIQ has one hot output, meaning that only the largest number in the NN output 
 6. placeholder
 7. placeholder
 8. placeholder
-9. Mario Circuit 3?
+9. Mario Circuit 3
 10. placeholder
 11. placeholder
 12. placeholder
