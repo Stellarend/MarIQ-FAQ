@@ -55,7 +55,7 @@ MarIQ has one hot output, meaning that only the largest number in the NN output 
 ### How are you getting the map as an input.
 The map is in 2 dimensions and mode 7 is used to apply a matrix transformation that makes it appear tilted
 
-### Why are only left, right and A being used?
+### Why are only left, right and B being used?
 To reduce complexity. Reduced complexity = More progress/time = Less training time
 
 ### What decides the Tryhard%?
