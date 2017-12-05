@@ -9,10 +9,10 @@ A neural network (NN) is composed of an input layer, a set of hidden layers and 
 ### What does recurrent mean?
 A recurrent neural network (RNN) not only uses current data, but it also uses data from other iterations. In the case of MarIQ, a regular neural network would only use data from each frame, but since MarIQ uses a RNN, it also uses data from previous frames. This helps the NN by potentially giving a sense of time, speed and causality.
 
-### What are the possible outputs?
+### What are the possible NN outputs?
 MarIQ has one hot output, meaning that only the largest number in the NN output is used as input for the game. The index-controller maps to 0:None, 1:A, 2:Right, 3:Right+A, 4:Left, 5:Left+A.
 
-### What are the inputs?
+### What are the NN inputs?
 ![Alt text](/images/inputs.png?raw=true)
 1. placeholder
 2. placeholder
@@ -51,6 +51,9 @@ MarIQ has one hot output, meaning that only the largest number in the NN output 
 5. placeholder
 6. placeholder
 7. placeholder
+
+### Why are only left, right and A being used?
+To reduce complexity. Reduced complexity = More progress/time = Less training time
 
 ### What decides the Tryhard%?
 Tryhard is a random value between 50% and 100% and changes when ever a training session occurs.
