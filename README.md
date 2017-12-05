@@ -66,7 +66,7 @@ Every 10 seconds in game or 5 seconds IRL
 
 ## Less Frequently Asked Questions
 #### What activation function is used
-Probbably tanH
+Probably tanH
 
 #### How does MarIQ get better
 When the Tryhard% is high, it probably uses back propagation in order to refine values within the NN.
