@@ -14,7 +14,7 @@ MarIQ has one hot output, meaning that only the largest number in the NN output 
 
 ### What are the NN inputs?
 ![Alt text](/images/inputs.png?raw=true)
-1. placeholder
+1. Map with mode 7 tilt
 2. placeholder
 3. placeholder
 4. placeholder
@@ -36,7 +36,7 @@ MarIQ has one hot output, meaning that only the largest number in the NN output 
 20. placeholder
 21. placeholder
 22. placeholder
-23. placeholder
+23. Lakitu backwards warning
 24. placeholder
 25. placeholder
 26. placeholder
@@ -44,13 +44,16 @@ MarIQ has one hot output, meaning that only the largest number in the NN output 
 
 ### What does everything on the screen mean?
 ![Alt text](/images/uiindex.png?raw=true)
-1. placeholder
-2. placeholder
-3. placeholder
-4. placeholder
-5. placeholder
-6. placeholder
-7. placeholder
+1. Tryhard% indicator
+2. Controler visualization
+3. Inputs
+4. Recurrent neural network
+5. Network output values
+6. Average reward per step output
+7. Simulated game input
+
+### How are you getting the map as an input.
+The map is in 2 dimensions and mode 7 is used to apply a matrix transformation that makes it appear tilted
 
 ### Why are only left, right and A being used?
 To reduce complexity. Reduced complexity = More progress/time = Less training time
