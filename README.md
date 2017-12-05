@@ -1,6 +1,4 @@
 # MarIQ-FAQ
-Frequently Asked Questions about MarIQ
-
 ### What is MarIQ:
 is a reinforcement learning program that teaches itself to play Super Mario Kart by a technique called Deep Q Learning. As it makes forward (or backward) progress through levels, it gets rewarded (or punished) accordingly, then learns which controller inputs will maximize its future reward in any given situation. 
 The "Tryhard%" indicates how much it's trying to do well versus explore new strategies. The network is a recurrent neural network with layers of size 300, 300, 150, running using TensorFlow on SethBling's new 1080TI system. When it freezes momentarily, it's training the network on its recent experience, or saving a checkpoint.
@@ -16,43 +14,43 @@ MarIQ has one hot output, meaning that only the largest number in the NN output 
 
 ### What are the inputs?
 ![Alt text](/images/inputs.png?raw=true)
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
-26.
-27.
+1. placeholder
+2. placeholder
+3. placeholder
+4. placeholder
+5. placeholder
+6. placeholder
+7. placeholder
+8. placeholder
+9. placeholder
+10. placeholder
+11. placeholder
+12. placeholder
+13. placeholder
+14. placeholder
+15. placeholder
+16. placeholder
+17. placeholder
+18. placeholder
+19. placeholder
+20. placeholder
+21. placeholder
+22. placeholder
+23. placeholder
+24. placeholder
+25. placeholder
+26. placeholder
+27. placeholder
 
 ### What does everything on the screen mean?
 ![Alt text](/images/uiindex.png?raw=true)
-1.
-2.
-3.
-4.
-5.
-6.
-7.
+1. placeholder
+2. placeholder
+3. placeholder
+4. placeholder
+5. placeholder
+6. placeholder
+7. placeholder
 
 ### What decides the Tryhard%?
 Tryhard is a random value between 50% and 100% and changes when ever a training session occurs.
