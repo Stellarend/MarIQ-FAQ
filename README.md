@@ -64,6 +64,9 @@ Tryhard is a random value between 50% and 100% and changes when ever a training 
 ### How often do training sessions occur?
 Every 10 seconds in game or 5 seconds IRL
 
+### Why does it freeze so often?
+The game freezes when a training session occurs (see above). Whenever training occurs, the program undergoes a massive calculation haul, and saves the data of the network, which is in the ballpark of 5MB in size (for reference, the entirety of the Super Mario Kart ROM is only around maybe 1MB).  
+
 ## Less Frequently Asked Questions
 #### What activation function is used
 Probably tanH
@@ -71,3 +74,6 @@ Probably tanH
 #### How does MarIQ get better
 When the Tryhard% is high, it probably uses back propagation in order to refine values within the NN.
 When the Tryhard% is low, it probably just assigns a random value somewhere in hopes of approaching a global min error.
+
+#### When is it going to learn that driving on the dirt/grass is bad?
+Simple Answer: Never. Long answer: MarIQ does not learn "environments" like being on grass or being in the air or any other scenario. MarIQ instead tries to generalize what it visualizes in its field of vision, and a few other tags (see "What are the NN inputs?"). What MarIQ learns is that some scenarios will give more rewards while others may give less or even punish MarIQ. Over time, the scenarios rewarded will generally be favored as following those result in higher rewards, while following others results in less rewards being payed out. Over even more time, MarIQ will have a tendency to follow the high-paying scenarios, meaning eventually, some day, MarIQ will find a grouping of scenarios where he will not even step on the grass/dirt in the first place, and chat will be happy... until Luigi knocks him back into a corner again.
