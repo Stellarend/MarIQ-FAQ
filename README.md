@@ -15,29 +15,29 @@ MarIQ has one hot output, meaning that only the largest number in the NN output 
 ### What are the NN inputs?
 ![Alt text](/images/inputs.png?raw=true)
 1. Map with mode 7 tilt
-2. placeholder
-3. placeholder
-4. placeholder
-5. placeholder
-6. placeholder
-7. placeholder
-8. placeholder
-9. Mario Circuit 3
-10. placeholder
-11. placeholder
-12. placeholder
-13. placeholder
-14. placeholder
-15. placeholder
-16. placeholder
+2. Mario Circuit 3
+3. Ghost Valley 2
+4. Donut Plains 2
+5. Bowser Castle 2
+6. Vanilla Lake 2
+7. Rainbow Road
+8. Koopa Beach 2
+9. Mario Circuit 1
+10. Ghost Valley 3
+11. Bowser Castle 3
+12. Choco Island 2
+13. Donut Plains 3
+14. Vanilla Lake 1
+15. Koopa Beach 1
+16. Mario Circuit 4
 17. Mario Circuit 2
 18. Ghost Valley 1
 19. Bowser Castle 1
-20. placeholder
+20. Choco Island 1
 21. Donut Plains 1
 22. Mario's Speed
 23. Lakitu backwards warning
-24. placeholder
+24. Item Box
 25. Pressing Left
 26. Pressing Right
 27. Pressing B
